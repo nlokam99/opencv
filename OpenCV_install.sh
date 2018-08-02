@@ -21,7 +21,7 @@ sudo apt-get install python3-dev
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 pip install numpy
-cd ~/opencv
+cd ~/opencv/opencv
 mkdir build
 cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
