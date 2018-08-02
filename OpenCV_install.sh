@@ -8,11 +8,11 @@ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get install libxvidcore-dev libx264-dev
 sudo apt-get install libgtk2.0-dev
 sudo apt-get install libatlas-base-dev gfortran
-cd ~
+cd ~/opencv
 git clone https://github.com/Itseez/opencv.git
 cd opencv
 git checkout 3.1.0
-cd ~
+cd ~/opencv
 git clone https://github.com/Itseez/opencv_contrib.git
 cd opencv_contrib
 git checkout 3.1.0
